@@ -1,0 +1,52 @@
+# Factory Method Pattern Implementation
+# Creates objects without exposing object creation logic to the client
+
+# Car class
+class Car:
+
+    # Method to drive a car
+    def drive(self):
+        print("Driving a Car")
+
+
+# Bike class
+class Bike:
+
+    # Method to ride a bike
+    def drive(self):
+        print("Riding a Bike")
+
+
+# Vehicle Factory class
+class VehicleFactory:
+
+    # Factory method to create vehicle objects
+    @staticmethod
+    def create_vehicle(vehicle_type):
+
+        if vehicle_type.lower() == "car":
+            return Car()
+
+        elif vehicle_type.lower() == "bike":
+            return Bike()
+
+        else:
+            raise ValueError("Invalid Vehicle Type")
+
+
+# Using the Factory
+
+# Create a Car object
+vehicle1 = VehicleFactory.create_vehicle("car")
+vehicle1.drive()
+
+# Create a Bike object
+vehicle2 = VehicleFactory.create_vehicle("bike")
+vehicle2.drive()
+
+
+"""
+Output:
+Driving a Car
+Riding a Bike
+"""
