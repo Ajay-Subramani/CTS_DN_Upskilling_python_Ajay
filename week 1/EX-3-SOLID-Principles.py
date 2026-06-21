@@ -109,7 +109,6 @@ class LibraryManagementService:
             f"{book.title} has been issued successfully"
         )
 
-
 book = Book(
     "Clean Code",
     "Robert C. Martin"
