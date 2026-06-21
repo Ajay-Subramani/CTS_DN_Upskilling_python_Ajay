@@ -6,13 +6,13 @@ This repository contains the solutions and explanations for Week 1 exercises. Th
 
 ## Exercises Completed
 
-| Exercise No. | Topic |
-|-------------|--------|
-| 1 | Singleton Design Pattern |
-| 2 | Factory Method Pattern – Vehicle Factory |
-| 3 | SOLID Principles |
-| 4 | Binary Search Algorithm |
-| 5 | Merge Sort Algorithm |
+| Exercise No. | Topic                                    |
+| ------------ | ---------------------------------------- |
+| 1            | Singleton Design Pattern                 |
+| 2            | Factory Method Pattern – Vehicle Factory |
+| 3            | SOLID Principles                         |
+| 4            | Binary Search Algorithm                  |
+| 5            | Merge Sort Algorithm                     |
 
 ---
 
@@ -28,16 +28,16 @@ The Singleton Pattern is a creational design pattern that restricts object creat
 
 ### Applications
 
-- Database Connection Managers
-- Configuration Managers
-- Logging Systems
-- Cache Management Systems
+* Database Connection Managers
+* Configuration Managers
+* Logging Systems
+* Cache Management Systems
 
 ### Key Learning
 
-- Only one object instance is created.
-- Multiple references point to the same object.
-- Reduces unnecessary object creation.
+* Only one object instance is created.
+* Multiple references point to the same object.
+* Reduces unnecessary object creation.
 
 ---
 
@@ -53,16 +53,16 @@ The Factory Method Pattern is a creational design pattern that delegates object 
 
 ### Applications
 
-- Vehicle Manufacturing Systems
-- Payment Gateways
-- Notification Systems
-- Document Generators
+* Vehicle Manufacturing Systems
+* Payment Gateways
+* Notification Systems
+* Document Generators
 
 ### Key Learning
 
-- Centralizes object creation logic.
-- Promotes loose coupling.
-- Makes code easier to extend and maintain.
+* Centralizes object creation logic.
+* Promotes loose coupling.
+* Makes code easier to extend and maintain.
 
 ---
 
@@ -78,61 +78,65 @@ SOLID is a set of five design principles that help developers build maintainable
 
 ### Principles Implemented
 
-#### Single Responsibility Principle
+### Single Responsibility Principle
 
 A class should have only one responsibility and one reason to change.
 
 Examples:
 
-- Book
-- LibraryCatalog
-- BookIssueService
-- BookReturnService
+* Book
+* LibraryCatalog
+* BookIssueService
+* BookReturnService
 
-#### Open Closed Principle
+### Open Closed Principle
 
 Software entities should be open for extension but closed for modification.
 
-Examples:
+Example:
 
-- EmailNotification
-- SMSNotification
-- PushNotification
+* EmailNotification
+* SMSNotification
+* PushNotification
 
-#### Liskov Substitution Principle
+New notification types can be added without modifying existing code.
+
+### Liskov Substitution Principle
 
 Objects of a parent class should be replaceable with objects of its child classes without affecting correctness.
 
-Examples:
+Example:
 
-- Notification
-- EmailNotification
-- SMSNotification
-- PushNotification
+* Notification
+* EmailNotification
+* SMSNotification
+* PushNotification
 
-#### Interface Segregation Principle
+### Interface Segregation Principle
 
 Clients should not be forced to depend on methods they do not use.
 
-Examples:
+Example:
 
-- BookSearcher
-- BookReporter
+* BookSearcher
+* BookReporter
 
-#### Dependency Inversion Principle
+Separate interfaces are provided for separate functionalities.
+
+### Dependency Inversion Principle
 
 High-level modules should depend on abstractions rather than concrete implementations.
 
 Example:
 
-- LibraryManagementService depends on Notification abstraction instead of a specific notification class.
+* LibraryManagementService depends on Notification abstraction instead of EmailNotification directly.
 
 ### Key Learning
 
-- Improves maintainability.
-- Encourages loose coupling.
-- Makes systems easier to extend.
-- Promotes clean architecture.
+* Improves maintainability.
+* Encourages loose coupling.
+* Makes systems easier to extend.
+* Promotes clean architecture.
 
 ---
 
@@ -148,21 +152,21 @@ Binary Search repeatedly divides the search space into two halves until the targ
 
 ### Requirements
 
-- Input array must be sorted.
+* Input array must be sorted.
 
 ### Time Complexity
 
-| Case | Complexity |
-|--------|------------|
-| Best Case | O(1) |
-| Average Case | O(log n) |
-| Worst Case | O(log n) |
+| Case         | Complexity |
+| ------------ | ---------- |
+| Best Case    | O(1)       |
+| Average Case | O(log n)   |
+| Worst Case   | O(log n)   |
 
 ### Key Learning
 
-- Faster than Linear Search.
-- Efficient for large datasets.
-- Widely used in searching applications.
+* Faster than Linear Search.
+* Efficient for large datasets.
+* Widely used in searching applications.
 
 ---
 
@@ -178,23 +182,23 @@ Merge Sort divides the array into smaller subarrays, recursively sorts them, and
 
 ### Time Complexity
 
-| Case | Complexity |
-|--------|------------|
-| Best Case | O(n log n) |
+| Case         | Complexity |
+| ------------ | ---------- |
+| Best Case    | O(n log n) |
 | Average Case | O(n log n) |
-| Worst Case | O(n log n) |
+| Worst Case   | O(n log n) |
 
 ### Space Complexity
 
 | Complexity |
-|------------|
-| O(n) |
+| ---------- |
+| O(n)       |
 
 ### Key Learning
 
-- Uses Divide and Conquer strategy.
-- Stable sorting algorithm.
-- Performs efficiently on large datasets.
+* Uses Divide and Conquer strategy.
+* Stable sorting algorithm.
+* Performs efficiently on large datasets.
 
 ---
 
@@ -215,10 +219,10 @@ Week1/
 
 # Technologies Used
 
-- Python 3
-- Object-Oriented Programming
-- Design Patterns
-- Data Structures and Algorithms
+* Python 3
+* Object-Oriented Programming
+* Design Patterns
+* Data Structures and Algorithms
 
 ---
 
@@ -226,9 +230,17 @@ Week1/
 
 After completing these exercises, I gained practical experience in:
 
-- Creational Design Patterns
-- Object-Oriented Design Principles
-- SOLID Principles
-- Searching Algorithms
-- Sorting Algorithms
-- Writing Maintainable and Scalable Code
+* Creational Design Patterns
+* Object-Oriented Design Principles
+* SOLID Principles
+* Searching Algorithms
+* Sorting Algorithms
+* Writing Maintainable and Scalable Code
+
+---
+
+# Author
+
+**Ajay S**
+B.E. Computer Science and Engineering
+Easwari Engineering College
