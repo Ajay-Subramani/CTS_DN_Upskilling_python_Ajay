@@ -153,6 +153,7 @@ Uses Divide and Conquer strategy.
 Stable sorting algorithm.
 Performs efficiently on large datasets.
 Folder Structure
+
 Week1/
 │
 ├── singleton.py
@@ -161,6 +162,7 @@ Week1/
 ├── binary_search.py
 ├── merge_sort.py
 └── README.md
+
 Technologies Used
 Python 3
 Object-Oriented Programming
