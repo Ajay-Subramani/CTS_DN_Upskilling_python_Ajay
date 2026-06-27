@@ -141,15 +141,3 @@ Learned how to summarize and analyze relational data using aggregate functions, 
 ## ✅ Conclusion
 
 This hands-on provided practical experience in manipulating and querying relational databases using SQL. It strengthened the understanding of DML operations, joins, filtering techniques, and data aggregation for generating meaningful reports.
-
----
-
-## 👨‍💻 Author
-
-**Ajay S**
-
-B.E. Computer Science and Engineering
-
-Easwari Engineering College
-
-Digital Nurture 5.0 – Python Full Stack Engineer Track
