@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual Environment
+venv/
+.venv/
+env/
+ENV/
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# Environment Variables
+.env
+
+# Logs
+*.log
+
+# SQLite Database
+*.db
+*.sqlite3
+
+# MySQL Dumps
+*.sql.bak
+
+# Alembic Cache
+migrations/__pycache__/
+
+

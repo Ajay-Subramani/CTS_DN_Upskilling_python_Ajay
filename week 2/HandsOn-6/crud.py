@@ -8,7 +8,7 @@ from models import (
     Enrollment
 )
 
-DATABASE_URL = "mysql+pymysql://root:YOUR_PASSWORD@localhost/college_db_orm"
+DATABASE_URL = "mysql+pymysql://root:root@localhost/college_dbs_orm"
 
 engine = create_engine(
     DATABASE_URL,

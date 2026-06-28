@@ -5,8 +5,8 @@ import time
 conn = mysql.connector.connect(
     host="localhost",
     user="root",
-    password="YOUR_PASSWORD",
-    database="college_db"
+    password="root",
+    database="college_dbs"
 )
 
 cursor = conn.cursor()
@@ -92,7 +92,7 @@ cursor.close()
 conn.close()
 
 
------ Version 1 : N+1 Problem -----
+"""----- Version 1 : N+1 Problem -----
 
 --('Arjun', 'Mehta')
 --('Arjun', 'Mehta')
@@ -119,4 +119,4 @@ conn.close()
 --------------------------------------------
 --If there are 10,000 enrollments:
 --Version 1 -> 10,001 queries
---Version 2 -> 1 query
+--Version 2 -> 1 query"""

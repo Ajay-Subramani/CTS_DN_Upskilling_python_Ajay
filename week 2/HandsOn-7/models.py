@@ -1,4 +1,5 @@
 from sqlalchemy import (
+    Boolean,
     create_engine,
     Column,
     Integer,
@@ -21,6 +22,22 @@ engine = create_engine(
 
 Base = declarative_base()
 
+class CourseSchedule(Base):
+    __tablename__ = "course_schedules"
+
+    schedule_id = Column(Integer, primary_key=True, autoincrement=True)
+
+    course_id = Column(
+        Integer,
+        ForeignKey("courses.course_id")
+    )
+
+    day_of_week = Column(String(20))
+    start_time = Column(String(10))
+    end_time = Column(String(10))
+
+    course = relationship("Course")
+    
 # Department Model
 
 class Department(Base):
@@ -56,7 +73,7 @@ class Student(Base):
     email = Column(String(100), unique=True, nullable=False)
     date_of_birth = Column(Date)
     enrollment_year = Column(Integer)
-
+    is_active = Column(Boolean, default=True)
     department_id = Column(
         Integer,
         ForeignKey("departments.department_id")
