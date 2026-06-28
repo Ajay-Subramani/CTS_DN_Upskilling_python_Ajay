@@ -12,7 +12,7 @@ from sqlalchemy.orm import declarative_base, relationship
 
 # Database Connection
 
-DATABASE_URL = "mysql+pymysql://root:YOUR_PASSWORD@localhost/college_db_orm"
+DATABASE_URL = "mysql+pymysql://root:root@localhost/college_db"
 
 engine = create_engine(
     DATABASE_URL,
