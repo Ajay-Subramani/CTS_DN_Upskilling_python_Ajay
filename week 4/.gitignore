@@ -1,0 +1,36 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.coverage
+.coverage
+coverage.xml
+
+# Node.js
+node_modules/
+**/node_modules/
+
+# Coverage
+coverage/
+**/coverage/
+
+# Babel
+.babelrc
+babel.config.js
+.babel-cache/
+**/.babel-cache/
+
+# Environment variables
+.env
+.env.*
+
+# Build
+dist/
+build/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
